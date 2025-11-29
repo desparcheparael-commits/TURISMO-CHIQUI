@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TURISMO CHIQUINQUIRA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #4a90e2;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TURISMO CHIQUINQUIRA</h1>
+    <p>BUSCA QUE PLAN ENCUENTRAS EN ESTE LINDO DESTINO</p>
+  </header>
+
+  <section>
+    <h2>Bienvenido</h2>
+    <p>EN ESTE ESPACIO PUEDES CONECER TODA LA OFERTA TURISTICA DEL MUNICIPIO.</p>
+    <a class="btn" href="#">Acción de ejemplo</a>
+  </section>
+
+  <section>
+    <h2>Mapa Alimentado por Power BI</h2>
+    <p>AQUI PUEDES UBICAR NUESTROS EMPRENDEDORES QUE OFRECEN GRAN ALTERNATIVA EN TU VISITA.</p>
+    <iframe title="Power BI Map"
+            width="100%"
+            height="450"
+            src="https://cetcolsubsidio-my.sharepoint.com/:u:/r/personal/brigitte_gonzalezpi_cetcolsubsidio_edu_co/Documents/Reto%20de%20Datos/Chiquinquira.pbix?csf=1&web=1&e=PAulgx"
+            frameborder="0"
+            allowFullScreen="true"></iframe>
+  </section>
+
+  <section>
+    <h2>Formulario (Microsoft Forms)</h2>
+    <p>AMIGO OPERADOR Y EMPRENDEDOR TURISTICO, REGISTRAT Y HASTE VISIBLE.</p>
+    <a class="btn" href="https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&token=28fa1587e292474aa34108ef1d9759b3&id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAZAALQHVxhURjA5RlkyV0RZN1pBMEc5NFhSMkFYNFZSMy4u&topview=Preview" target="_blank">Abrir Formulario</a>
+  </section>
+</body>
+</html>
